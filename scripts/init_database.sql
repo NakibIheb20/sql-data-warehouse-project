@@ -1,4 +1,26 @@
 
+/*
+--------------------------------------------------------------------------------
+-- Project: Data Warehouse Setup Script
+-- Author: [Your Name or Team Name]
+-- Description:
+--     This script is used to initialize the 'Datawarehouse' database.
+--     It performs the following actions:
+--         1. Drops the existing 'Datawarehouse' database if it exists.
+--         2. Recreates the 'Datawarehouse' database.
+--         3. Creates the core schemas used for data processing layers:
+--            - bronze: Raw data layer
+--            - silver: Cleaned/transformed data layer
+--            - gold: Business-ready data layer
+-- Usage:
+--     Execute this script only when a full reset of the data warehouse 
+--     environment is required. All existing data in the 'Datawarehouse' 
+--     database will be lost.
+--------------------------------------------------------------------------------
+*/
+
+
+
 USE master;
 GO
 
